@@ -22,9 +22,10 @@ requires:
   Carp: 0
   Moo: 0
   Scalar::Util: 0
+  namespace::clean: 0
   perl: 5.01
 resources:
   homepage: http://github.com/thrig/Math-SlideRule
   license: http://dev.perl.org/licenses/
   repository: http://github.com/thrig/Math-SlideRule
-version: 0.03
+version: 0.04
