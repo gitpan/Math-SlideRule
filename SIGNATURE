@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 1038be0cfe17ffa538df88ec8b3c2ed6eb4c93d3 Changes
+SHA1 e2a39b60c8b9d0f1facf438220bd5f0edcd0b36b MANIFEST
+SHA1 e09e609acea53835952c852dd58c0d0864146fa0 Makefile.PL
+SHA1 42ddc910cacc444a3760470228605a7533394e04 README
+SHA1 13a7065c502a0a05dc9ae2b06fb953391e41d0c0 lib/Math/SlideRule.pm
+SHA1 7051fcf20934888eee0ac7794693dc8ff03e514e lib/Math/SlideRule/PickettPocket.pm
+SHA1 39e190018a78c2390ff87cbe1bcf16cac2073e11 t/00-Math-SlideRule.t
+SHA1 838140c22b375b7b6443d3fe1114e0ad2505cca0 t/01-PickettPocket.t
+SHA1 499a9d2a2952ae5239f35f35c18702ec909207dc t/manifest.t
+SHA1 c2ae27ae95e3827baec4fbdd3d7746d664abb2f2 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJTJc6ZAAoJEDTEVWqwTuCUM4EH/Rqd0R1Yi2CFvMAC1zPnLH7X
+QWYtAYDxtN5Bwfk1XzeIIY9ObWO2pHelLlgMGsb3uQC+cKJyO6t84n6yWhSFk7nF
+6m8vPE5Ix6hsZRnURijrKzxsWQzeIzXXQveeAVfhaOX6de7zEDcTN/DNtFfBxCDL
+L7P2eSxqUgqZxuBRntsHxZXpF2GAwrSzqQECHABd5+5HcCqex46BroyW7F7DcVmA
+HsO3KshPLgofeUYkcHSrn0Fp1vJFQO5/8rAubfz6uimvKUxLmYpoigOVYzwPDksv
+ivw8yx6289Psnc/NvpE2ZaDmtRwPsKY0jbvTLDTgK16aWc+C416JbMXdt4kU7y4=
+=GKJU
+-----END PGP SIGNATURE-----
